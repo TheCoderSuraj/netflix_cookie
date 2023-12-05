@@ -67,16 +67,16 @@ class GuiInteract:
             print("Unexpected error",e)
 
     def click_reload_page(self):
-        # try:
-        #     #print("Executing Reload page")
-        #     editor = pag.locateCenterOnScreen(RELOAD_PATH,grayscale=True,confidence=0.7)
-        #     #print("cookie reload position",(editor[0]/2,editor[1]/2))
-        #     pag.moveTo(editor[0]/2,editor[1]/2)
-        #     pag.mouseDown()
-        #     pag.click()
-        # except Exception as e:
-        #     print("Unexpected error",e)
-        pag.hotkey('command','r',interval=0.35)
+        try:
+            #print("Executing Reload page")
+            editor = pag.locateCenterOnScreen(RELOAD_PATH,grayscale=True,confidence=0.7)
+            #print("cookie reload position",(editor[0]/2,editor[1]/2))
+            pag.moveTo(editor[0]/2,editor[1]/2)
+            pag.mouseDown()
+            pag.click()
+        except Exception as e:
+            print("Unexpected error",e)
+        # pag.hotkey('command','r',interval=0.35)
 
     def addText2Clipboard(self,cookie):
         pyperclip.copy(cookie)
