@@ -1,9 +1,0 @@
-.netflix.com	TRUE	/	FALSE	1731546159	nfvdid	BQFmAAEBEBZsNdvV9vNXC7mbzDtV0xhg_39p6Kr7n9ZpYVj_pYjS8FNvGeBpBDy_4mciCLoL3GaB4E1LgMMpsUwDpRWRaS_-hPQBXQNziH2ZBhw9npaLIjJ7mobk2Ze6JCheHHxWBeCDIJACAzXDvdkRQeQeDl1x
-.netflix.com	TRUE	/	FALSE	1700833824	firstLolomoAfterOnRamp	true
-.netflix.com	TRUE	/	FALSE	1708745004	netflix-sans-bold-3-loaded	true
-.netflix.com	TRUE	/	FALSE	1700979804	flwssn	c8fe4613-ca7c-426b-adf7-94bd7e4c407d
-.netflix.com	TRUE	/	FALSE	1732505003	SecureNetflixId	v%3D2%26mac%3DAQEAEQABABReHM_FiADGEyPghGAZOoITN_7m2i9Abdo.%26dt%3D1700969003243
-.netflix.com	TRUE	/	FALSE	1732505003	NetflixId	ct%3DBQAOAAEBEIf441NIO8bPSWDgzOX3i0yB8HP14QZfk0t0bW7ktk915xaBD8uGJ4eTONJUvnHkA7JGzfVgw1EFBGTVv3N5zP0A-e5W-_BDoZYOlpo6a096nPuIu2wTP6cUopUu63qlduDML9Lhx4GeskdxOTNvdlcttXG3hxajwPzKgjexllZMJXU5fEgVWk3uroVblPio7d6qcfW_4hlVFbA-QvGUxXr78QqXlR1S4m00uschkjKKjRFKwu7mVdRZsrYZKhh8fZGFjZWMiolCR7bjxznaxA1E8yiRuWhSr17OvvFN75nqB7xqD_KF7BdGWl8_pWRc3hV1m4NeQRoYIkR9oLcPViRKzjZM2NfdLildTcsm2TZAXdwfGsIy17bYpNkF5DoeAwWDoa4og7JJlQ_TfiR9-j28QQnmo1jU2rMNNF2lHIJE20Sfbcwz8V-j7UYXyvjVvAnHsOgb-JkKtMJyPImpqlASneatQbdECks5BXEWFmYshM76kHNhRNWurmjU3eeGJXvE5ZMO7lvYtDj3OpmcWHoIogdDfm8a6WZDSGKPAkDIrSsjN0sciDzR56flczwbsL4EqJZP1V1f5kaFsYAgrYZQGQK9MStfr1KOU7_YulpTx1TVeK1AsMqgyrx-ebHRQs0KuZygynje17RUQHfHBj_EONSZpQkOyzTDfCoNLE_ad1k.%26bt%3Ddbl%26ch%3DAQEAEAABABT_BX3CpQqDDX9TbpBPjDoSZ4F_RAzoIW8.%26v%3D2%26mac%3DAQEAEAABABQXhAXeQKgvTLnUBJKPqcGiCvMUAS7aneY.
-.netflix.com	TRUE	/	FALSE	1732505006	OptanonConsent	isGpcEnabled=0&datestamp=Sun+Nov+26+2023+10%3A23%3A26+GMT%2B0700+(Indochina+Time)&version=202301.1.0&isIABGlobal=false&hosts=&consentId=8bf0b216-8418-441a-a75a-396098d55047&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false
-.netflix.com	TRUE	/	FALSE	1708748102	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Atrue%7D%7D
-.netflix.com	TRUE	/	FALSE	1700982294	profilesNewSession	0
