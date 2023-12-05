@@ -1,0 +1,8 @@
+COOKIE_EDITOR_PATH = "imgs/cookie_editor.png"
+CHECK_COOKIE_EDITOR_OPEN_PATH = "imgs/cookie_editor_title.png"
+DELETE_PATH = "imgs/delete.png"
+IMPORT_PATH = "imgs/import.png"
+PASTE_PATH = "imgs/paste.png"
+VALIDATE_PATH = "imgs/validate.png"
+RELOAD_PATH = "imgs/reload.png"
+TEST_PATH = "imgs/test.png"
