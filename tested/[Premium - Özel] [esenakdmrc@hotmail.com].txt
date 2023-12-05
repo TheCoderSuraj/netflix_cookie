@@ -1,0 +1,11 @@
+.netflix.com	TRUE	/	FALSE	1734688865	dsca	anonymous
+www.netflix.com	FALSE	/	FALSE	1717408996	didUserInteractWithPage	true
+.netflix.com	TRUE	/	FALSE	1731665028	nfvdid	BQFmAAEBECG-ZhjqOPJN5UAPsopMAItgrpxV4Ewls-o58nAo8r8yW1YgXMpzRk0yR5nG5X8OCAj1d56CEvF9ANgSR9r3lK4MbGUI7LRc7wKPYYI3YXM_j6KKK237VDVk_LTBfbhfZpEDDx6h82FgncvVhy4iZJgh
+.netflix.com	TRUE	/	FALSE	1732025458	NetflixId	ct%3DBQAOAAEBEIhrg8PXIRQrTzEE-lslPIaB8KdtmuLWswqEmHvTY57SoZ3MkFecf3JcdBqqVObmir6eo9cd3A0y09oQBzEOTNAdiWcRwYSzPuyED1FWo26nA0xWLm5doOXAmAq2dQZRi8qs-Wu0PNPaP9HwXRUpdAd12RBORLfFqvMuzp59qt34Zqs-BGAqJ2doGgIOQNFKb0ZlhRQVrPlkl3Nod4wMiTt78y2y8bTOimo-2N_LSUPHajlfqh8vf4PAj7YrfNYy_I5mrpCfZzc6pUd0oEZJ1ftwB1-WfIynVb5XPzu83W3pQOK2V0CFpAWAqv3_S0Itp2hEBzzTF596A21ZR5bTbmFdE7IlWV7lo0pX4k9hCrY9xvSwrsS6yKDVH2Fy5MDmEhKdX90ZyH3nv_pBR9uez9ph91zKIxcL9aGcZ16YsCP-gOkxzx_tOEOvge2I0ZAkvLVtNGqWoK8Xua-mO7U1Bb_4p8TGnvSWrPvvM1tZj5qT1Qa6QbLv0qVSHH_i_krqgwlJC1KHhsqf_-2CWo_7YuWtD72c5GVxgb8Y7eKgnc7SOhk0U5-g7_HEYZZDkrvV2T7zDF7yHR7vmosW7U28rVahMal7HH0A7QCbPLtr9zkpvGbQolLc1SuQh7tn4OthySq1UwE55dNwvMmW-vgBJw_n-CBn6xLnENf_kddVN23izjg.%26bt%3Ddbl%26ch%3DAQEAEAABABThB-YZqHmMffYutBjz9SHYQapKXsoO1uE.%26v%3D2%26mac%3DAQEAEAABABTWLdYAssGx9G0XlUKRZVin6IGT2Jh3sFY.
+.netflix.com	TRUE	/	FALSE	1732025460	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Nov+20+2023+17%3A11%3A00+GMT%2B0300+(GMT%2B03%3A00)&version=202301.1.0&isIABGlobal=false&hosts=&consentId=f6061b79-09d8-4b72-a35f-6081a297612c&interactionCount=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A0%2CC0004%3A0&AwaitingReconsent=false
+.netflix.com	TRUE	/	FALSE	1732025458	SecureNetflixId	v%3D2%26mac%3DAQEAEQABABTmI9fOq0sVNZ0nmJgT8CyF2P421r-Vr6A.%26dt%3D1700489457841
+.netflix.com	TRUE	/	FALSE	1700500258	flwssn	d3b781d1-3792-4b7e-ad4a-84e484936f1b
+.netflix.com	TRUE	/	FALSE	1708265458	hasSeenCookieDisclosure	true
+.netflix.com	TRUE	/	FALSE	1708265458	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1708265458	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1700495689	profilesNewSession	0

@@ -11,7 +11,7 @@ class GuiInteract:
     def check_cookie_editor_open(self):
         try:
             # print("Executing Opening cookie editor")
-            pag.locateCenterOnScreen(CHECK_COOKIE_EDITOR_OPEN_PATH,grayscale=False,confidence=0.7)
+            pag.locateCenterOnScreen(CHECK_COOKIE_EDITOR_OPEN_PATH,grayscale=True,confidence=0.7)
             # print("Cookie editor is open")
             return True
         except pag.ImageNotFoundException :
@@ -24,7 +24,7 @@ class GuiInteract:
             return
         try:
             # print("Executing Opening cookie editor")
-            editor = pag.locateCenterOnScreen(COOKIE_EDITOR_PATH,grayscale=False,confidence=0.7)
+            editor = pag.locateCenterOnScreen(COOKIE_EDITOR_PATH,grayscale=True,confidence=0.7)
             # #print("cookie Editor position",(editor[0]/2,editor[1]/2))
             pag.moveTo(editor[0]/2,editor[1]/2)
             pag.mouseDown()
@@ -35,7 +35,7 @@ class GuiInteract:
     def click_import(self):
         try:
             #print("Executing Cookie import")
-            editor = pag.locateCenterOnScreen(IMPORT_PATH,grayscale=False,confidence=0.7)
+            editor = pag.locateCenterOnScreen(IMPORT_PATH,grayscale=True,confidence=0.7)
             #print("cookie import position",(editor[0]/2,editor[1]/2))
             pag.moveTo(editor[0]/2,editor[1]/2)
             # pag.mouseDown()
@@ -46,7 +46,7 @@ class GuiInteract:
     def click_delete(self):
         try:
             #print("Executing Cookie delete")
-            editor = pag.locateCenterOnScreen(DELETE_PATH,grayscale=False,confidence=0.7)
+            editor = pag.locateCenterOnScreen(DELETE_PATH,grayscale=True,confidence=0.7)
             #print("cookie delete position",(editor[0]/2,editor[1]/2))
             pag.moveTo(editor[0]/2,editor[1]/2)
             pag.mouseDown()
@@ -58,7 +58,7 @@ class GuiInteract:
     def click_delete(self):
         try:
             #print("Executing Cookie delete")
-            editor = pag.locateCenterOnScreen(DELETE_PATH,grayscale=False,confidence=0.7)
+            editor = pag.locateCenterOnScreen(DELETE_PATH,grayscale=True,confidence=0.7)
             #print("cookie delete position",(editor[0]/2,editor[1]/2))
             pag.moveTo(editor[0]/2,editor[1]/2)
             pag.mouseDown()
@@ -69,32 +69,34 @@ class GuiInteract:
     def click_reload_page(self):
         # try:
         #     #print("Executing Reload page")
-        #     editor = pag.locateCenterOnScreen(RELOAD_PATH,grayscale=False,confidence=0.7)
+        #     editor = pag.locateCenterOnScreen(RELOAD_PATH,grayscale=True,confidence=0.7)
         #     #print("cookie reload position",(editor[0]/2,editor[1]/2))
         #     pag.moveTo(editor[0]/2,editor[1]/2)
         #     pag.mouseDown()
         #     pag.click()
         # except Exception as e:
         #     print("Unexpected error",e)
-        pag.hotkey('command','r',interval=0.25)
+        pag.hotkey('command','r',interval=0.35)
 
     def addText2Clipboard(self,cookie):
         pyperclip.copy(cookie)
 
     def paste_cookie(self):
-        # try:
-        #     #print("Executing Cookie Paste")
-        #     #print("Executing Right click")
-        #     pag.rightClick()
-        #     editor = pag.locateCenterOnScreen(PASTE_PATH,grayscale=False,confidence=0.7)
-        #     #print("cookie delete position",(editor[0]/2,editor[1]/2))
-        #     pag.moveTo(editor[0]/2,editor[1]/2)
-        #     pag.mouseDown()
-        #     pag.click()
-        # except Exception as e:
-        #     print("Unexpected error",e)
-        pag.mouseDown()
-        pag.hotkey('command','v',interval=0.25)
+        pag.sleep(0.5)
+
+        try:
+            #print("Executing Cookie Paste")
+            #print("Executing Right click")
+            pag.rightClick()
+            editor = pag.locateCenterOnScreen(PASTE_PATH,grayscale=True,confidence=0.7)
+            #print("cookie delete position",(editor[0]/2,editor[1]/2))
+            pag.moveTo(editor[0]/2,editor[1]/2)
+            pag.mouseDown()
+            pag.click()
+        except Exception as e:
+            print("Unexpected error",e)
+        # pag.mouseDown()
+        # pag.hotkey('command','v',interval=0.25)
 
     
     def write_cookie(self,cookie):
@@ -105,9 +107,16 @@ class GuiInteract:
         self.click_reload_page()
         pag.sleep(delay)
         try:
-            pag.locateOnScreen(VALIDATE_PATH, confidence=0.7,grayscale=False)
-        except pag.ImageNotFoundException:
-            return True
+            pag.locateOnScreen(GET_STARTED_PATH, confidence=0.7,grayscale=True)
+            return False
+        except:
+            self.open_cookie_editor()
+            try:
+                pag.locateOnScreen(VALIDATE_PATH, confidence=0.7,grayscale=True)
+                return True
+            except:
+                pass
+            pass
         return False
     # open_cookie_editor(COOKIE_EDITOR_PATH)
 

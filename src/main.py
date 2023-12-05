@@ -5,8 +5,10 @@ import pyautogui as pag
 import pyperclip
 
 dirPath = "data"
-delay = 0.2
+delay = 1
 files = cr.getFilePathList(dirPath)
+files.sort()
+
 gi = GuiInteract()
 
 def validateCookie(cookie):
@@ -23,11 +25,11 @@ def validateCookie(cookie):
     return gi.validateNetflix()
 
 
-
 for path in files:
     p = os.path.join(dirPath,path)
     cookie = cr.fetch_cookie(p)
-    pag.sleep(1)
+    if p == None:
+        continue
     print("working on file: ",p)
 
     a = validateCookie(cookie)
