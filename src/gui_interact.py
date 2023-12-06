@@ -106,16 +106,25 @@ class GuiInteract:
     def validateNetflix(self,delay=3):
         self.click_reload_page()
         pag.sleep(delay)
+        # try:
+        #     pag.locateOnScreen(GET_STARTED_PATH, confidence=0.7,grayscale=True)
+        #     return False
+        # except:
+        #     self.open_cookie_editor()
+        #     try:
+        #         pag.locateOnScreen(VALIDATE_PATH, confidence=0.7,grayscale=True)
+        #         return True
+        #     except:
+        #         pass
+        #     pass
+        # return False
         try:
             pag.locateOnScreen(GET_STARTED_PATH, confidence=0.7,grayscale=True)
             return False
+        except pag.ImageNotFoundException:
+            return True
+            pass
         except:
-            self.open_cookie_editor()
-            try:
-                pag.locateOnScreen(VALIDATE_PATH, confidence=0.7,grayscale=True)
-                return True
-            except:
-                pass
             pass
         return False
     # open_cookie_editor(COOKIE_EDITOR_PATH)
